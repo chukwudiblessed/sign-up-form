@@ -1,0 +1,195 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.main{
+    width: 100%;
+    height: 657px;
+    /* background-color: aqua; */
+}
+
+.wrapper{
+    width:  100%;
+    height: 655px;
+    /* background-color: black; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.card{
+    width: 335px;
+    height:470px;
+    /* background-color: chartreuse; */
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5) ;
+
+}
+
+.Sign-up{
+    width:115px;
+    color: blue;
+    display:flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family:Cambria;
+    margin: 25px 115px;
+    font-weight: bold;
+    border-radius: 40px;
+    box-shadow: 0px 0px 7px 0px black;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 132, 255);
+    margin: 10px;
+}
+
+.input1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0px 0px 3px; */
+    height: 30px;
+}
+
+.in1{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(255, 145, 0);
+    display:flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.in1 input{
+    padding-left: 15px;
+    height: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+}
+.password{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 132, 255);
+}
+
+.input2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0px 0px 3px; */
+    height: 30px;
+    margin-top: 10px;
+}
+
+.in2{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(255, 145, 0);
+    display:flex;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0px;
+}
+.in2 input{
+    padding-left: 15px;
+    height: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(218, 9, 9);
+}
+
+.Sign-up2{
+    width: 120px;
+    display: flex;
+    color: blue;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 233, 240);
+    border-radius: 15px;
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.orr{
+    color: rgb(255, 97, 5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.using{
+    display:flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.up{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+}
+
+.more{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon,.icon img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height:25px;
+    /* background-color: darkblue; */
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.icon2,.icon2 img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height:25px;
+    /* background-color: darkblue; */
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+
+.design{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: monospace;
+    color: blue;
+}
